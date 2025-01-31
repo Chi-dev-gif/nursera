@@ -185,6 +185,9 @@ body{
 .social p{
     font-weight: 700;
 }
+.social i{
+    font-size: large;
+}
 .menu-btn-container{
     display: none;
 }
@@ -204,6 +207,9 @@ body{
 .service-header{
     text-align: center;
     padding: 20px;
+}
+.service-header h1, p{
+    padding: 5px;
 }
 .card-container{
     display: flex;
@@ -279,11 +285,14 @@ body{
     overflow: hidden;
     padding: 10px;
     justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #002147;
 }
 .form-container h1 {
     font-size: 32px;
     margin-bottom: 20px;
     text-align: center;
+    color: #fff;
 }
   
 .input-group {
