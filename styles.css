@@ -60,13 +60,14 @@ body{
 }
 .link-container a{
     text-decoration: none;
-    background-color: #eeee;
-    padding: 5px;
+    background-color: #002147;
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
+    color: #fff;
 }
 .link-container a:hover{
-    background-color: #fff;
+    background-color: rgb(122, 5, 60);
 }
 /*******************************NAV**********************/
 .menu-container {
@@ -191,6 +192,139 @@ body{
 .menu-btn-container{
     display: none;
 }
+/*********************************HOME*****************************/
+.home{
+    display: flex;
+    width: 100%;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    background: url('granpa\ and\ son.jpg');
+    background-size: calc(100% - 1px);
+    background-repeat: no-repeat;
+}
+.home-overlay{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    position: relative;
+    left: 12px;
+    font-size: clamp(0.7rem, 0.8vw, 2rem);
+    color: #fff;
+}
+.home-overlay-link{
+    display: flex;
+    gap: 20px;
+}
+.home-overlay-link a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.home-overlay-link a:hover{
+    background-color: #002147;
+    transform: translateY(5px);
+}
+.home-overlay-link a i{
+    font-size: 15px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+/*********************************ABOUT US*****************************/
+.about-us{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+}
+.about-us .part-a{
+    display: flex;
+    width: 100%;
+}
+.about-us .part-a .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #0c2239;
+    height: 768px;
+    color: #fff;
+    padding: 10px;
+}
+.left-text-2{
+    display: flex;
+    justify-content: left;
+}
+.left .left-link{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    text-align: left;
+}
+.left .left-link a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f4c700;
+    font-size: 26px;
+    font-weight: 900;
+    transition: transform 0.4s ease;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+.left .left-link a:hover{
+    background-color: rgb(122, 5, 60);
+    transform: translateY(10px);
+}
+.left-text-1 h5{
+    color: #f4c700;
+}
+.left-text-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-text-2{
+    padding: 20px 0;
+}
+.left-text-2 i{
+    font-size: 40px;
+    color: #f4c700;
+}
+.about-us .part-a .right{
+    width: 100%;
+    height: 768px;
+    background: url('male-nurse-with-stethoscope.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.right-overlay{
+    background-color: #eee;
+    width: 50%;
+    padding: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.right-overlay p i{
+    font: 24px;
+    color: rgb(122, 5, 60);
+}
+
 /*******************************SERVICES***************************/
 
 .services{
@@ -573,6 +707,16 @@ textarea {
     }
     .footer-logo img{
         width: fit-content;
+    }
+    .home{
+        height: 190px;
+    }
+    .about-us .part-a{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-overlay{
+        width: 100%;
     }
 }
 
