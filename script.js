@@ -81,3 +81,14 @@ function booking(){
   })
 }
 
+/************************About Section/Progress Bar************************/ 
+function updateProgress(barId, percentageId, value) {
+  const bar = document.getElementById(barId);
+  const percentage = document.getElementById(percentageId);
+  bar.style.width =value + '%';
+  percentage.textContent = value + '%';
+}
+
+// Set progress values
+updateProgress('home-progress', 'home-percentage', 90);
+updateProgress('senior-progress', 'senior-percentage', 86);
