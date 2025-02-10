@@ -827,7 +827,7 @@ textarea {
         margin-right: 0;
     }
     .footer{
-        height: 600px;
+        height: 670px;
     }
     .footer-logo img{
         width: fit-content;
@@ -845,8 +845,5 @@ textarea {
     .about-container{
         display: block;
       }
-    .footer-bottom{
-        background-color: #0c2239;
-    }
 }
 
