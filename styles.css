@@ -845,5 +845,8 @@ textarea {
     .about-container{
         display: block;
       }
+    .footer-bottom{
+        background-color: #0c2239;
+    }
 }
 
