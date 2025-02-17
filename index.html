@@ -342,7 +342,12 @@
             <p>&copy; 2025 Nursera Chaison • All Rights Reserved</p>
         </div>
     </section>
-    
+    <script>
+    if (window.self !== window.top) {
+        window.top.location = window.self.location;
+    }
+</script>
+
     <script src="script.js"></script>
 </body>
 </html>
